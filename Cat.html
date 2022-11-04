@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Form</title>
+    <link rel="stylesheet" href="./Cat.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1><span style="color: #e60023">C@t</span> Form</h1>
+      <form action="">
+        <div class="control_2">
+          <div id="First">
+            <label for="firstName">First Name:</label><br />
+            <input
+              name="first"
+              type="text"
+              id="firstName"
+              placeholder="First Name"
+            />
+          </div>
+          <div id="second">
+            <label for="Second">Second Name:</label><br />
+            <input
+              type="text"
+              name="Second"
+              id="Second"
+              placeholder="Second Name"
+            />
+          </div>
+        </div>
+        <div id="e-mail">
+          <label for="mail">E-mail:</label><br />
+          <input type="email" name="mail" id="mail" placeholder="E-mail" />
+        </div>
+        <div class="control_2">
+          <div id="Age">
+            <label for="age">Age:</label><br />
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="age"
+              min="10"
+              max="130"
+              step="1"
+            />
+          </div>
+          <div id="Gender">
+            <label for="gender">Gender:</label><br />
+
+            <input type="radio" name="gender" value="Male" id="Male" />
+            <label for="Male">Male</label><br />
+            <input type="radio" name="gender" id="Female" value="Female" />
+            <label for="Female">Female</label>
+          </div>
+        </div>
+        <input id="sub" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
