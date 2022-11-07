@@ -13,7 +13,7 @@ body {
 
 .container {
   width: 800px;
-  height: calc(100% - 100px);
+  height: calc(100vh - 100px);
   margin: 50px auto;
   padding: 20px;
   display: flex;
